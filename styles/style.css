@@ -21,7 +21,7 @@
     padding: 10px 5px;
   }
 }
-.liste-medias, footer, .container-faq, .container-boxes, .accueil, nav ul {
+.container-fonctionnalites, .liste-medias, footer, .container-faq, .container-boxes, .accueil, nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -453,6 +453,69 @@ footer p {
 .liste-medias img {
   width: 40px;
   margin: 10px 10px;
+}
+
+.titre-fonctionnalites {
+  padding: 130px 0 20px;
+}
+
+.sous-titre-fonctionnalites {
+  text-align: center;
+  font-size: 24px;
+}
+
+.container-btn-accueil {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-fonctionnalites {
+  display: block;
+  width: 200px;
+  padding: 15px;
+  background: #7c3fed;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.fantome {
+  border: 2px solid #7c3fed;
+  background: transparent;
+  color: #7c3fed;
+}
+
+.container-fonctionnalites {
+  margin: 125px auto 200px;
+  width: 90%;
+  max-width: 1700px;
+  min-width: 300px;
+  flex-wrap: wrap;
+}
+
+.box-fonctionnalites {
+  width: 400px;
+  display: flex;
+  margin: 40px 20px;
+}
+
+.gauche-img {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.droite-txt p:nth-of-type(1) {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.droite-txt p:nth-of-type(2) {
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 /*# sourceMappingURL=style.css.map */
