@@ -21,7 +21,7 @@
     padding: 10px 5px;
   }
 }
-.container-faq, .container-boxes, .accueil, nav ul {
+.liste-medias, footer, .container-faq, .container-boxes, .accueil, nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,8 +148,8 @@ nav li a:hover::after {
     display: flex;
   }
 }
-.conatiner-global {
-  padding-bottom: 400px;
+.container-global {
+  padding-bottom: 500px;
 }
 
 .accueil {
@@ -423,6 +423,36 @@ nav li a:hover::after {
   .btn-appel {
     width: 200px;
   }
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  color: #000;
+  flex-direction: column;
+}
+
+.bloc {
+  width: 300px;
+  margin: 0 30px;
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.liste-medias img {
+  width: 40px;
+  margin: 10px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

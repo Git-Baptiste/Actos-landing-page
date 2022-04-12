@@ -114,8 +114,8 @@ nav li a:hover::after {
 
 // ----------------- CONTAINER GLOBAL -----------------
 
-.conatiner-global {
-      padding-bottom: 400px;
+.container-global {
+      padding-bottom: 500px;
 }
 
 // ----------------- ACCUEIL -----------------
@@ -404,4 +404,42 @@ nav li a:hover::after {
             width: 200px;
       }
 
+}
+
+
+// ----------------- FOOTER -----------------
+
+
+footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 300px;
+      background: #fff;
+      color: #000;
+      @extend %flex-double-centre;
+      flex-direction: column;
+}
+.bloc {
+      width: 300px;
+      margin: 0 30px;
+}
+
+footer h3{
+      text-align: center;
+      font-size: 35px;
+      padding-bottom: 20px;
+}
+
+footer p {
+      font-size: 22px;
+      line-height: 1.4;
+}
+
+.liste-medias {
+      @extend %flex-double-centre;
+}
+.liste-medias img {
+      width: 40px;
+      margin: 10px 10px;
 }
